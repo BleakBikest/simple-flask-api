@@ -1,0 +1,94 @@
+creates a new Git repository
+(git init)
+
+
+Stage all files
+Add all files in your folder to the staging area:
+(git add .)
+
+Commit Your Changes
+Save the changes with a descriptive commit message:
+(git commit -m "Initial commit")
+
+Go to GitHub and create a new repository.
+Copy the repository URL (e.g., https://github.com/username/repository-name.git).
+
+Add the remote repository URL:\
+(git remote add origin https://github.com/username/repository-name.git)
+
+Push the committed files to the main branch (or master if your branch is named that):
+(git push -u origin main)
+
+
+
+
+For Future Updates
+
+Stage Changes
+(git add .)
+
+Commit changes
+(git commit -m "Descriptive commit message")
+
+Push changes
+(git push origin main)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

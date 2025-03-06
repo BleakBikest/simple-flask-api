@@ -1,0 +1,43 @@
+Save docker image:
+(docker save -o simple-api.tar simple-api)
+Transfer the .tar file to the new computer using a USB drive, email, or file transfer tools like scp or rsync.
+
+
+Import the Docker Image on the New Computer
+
+Load the image into Docker:
+(docker load -i simple-api.tar)
+
+Verify that the image is loaded:
+(docker images)
+
+Start the container
+(docker run -p 5000:5000 simple-api)
+
+Open a web browser or use Postman/cURL to access your API at http://localhost:5000.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

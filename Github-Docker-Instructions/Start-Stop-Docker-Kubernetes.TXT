@@ -1,0 +1,15 @@
+Build and run a container:
+docker build -t simple-api .
+docker run -p 5000:5000 simple-api
+
+
+Use Kubernetes:
+kubectl apply -f deployment.yaml
+kubectl get pods
+kubectl get services
+
+Stop everything:
+kubectl delete -f deployment.yaml
+
+docker ps -q
+docker stop <container_id>
